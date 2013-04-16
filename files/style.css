@@ -1,0 +1,34 @@
+body {
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+#navigation, #navigation a {
+    color: gray;
+}
+#navigation .active {
+    font-weight: bold;
+}
+#navigation {
+    padding-bottom: 20px;
+    text-align: center;
+}
