@@ -3,6 +3,7 @@ body {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
+    overflow-y: scroll;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h2 {
     text-align: center;
 }
 
-p, ul li {
+p, ul li, ol li {
     line-height: 25px;
 }
 
@@ -33,13 +34,17 @@ ul {
     list-style-type: none;
 }
 
-#navigation, #navigation a {
-    color: gray;
-}
-#navigation .active {
-    font-weight: bold;
-}
 #navigation {
     padding-bottom: 20px;
     text-align: center;
+}
+#navigation a {
+    color: #808080;
+}
+#navigation .element.active {
+    color: #404040;
+    text-decoration: underline;
+}
+#navigation .element {
+    margin: 0 2px;
 }
