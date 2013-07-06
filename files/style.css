@@ -30,7 +30,7 @@ p i, li i {
     line-height: 25px !important;
 }
 
-ul {
+body#courses ul {
     list-style-type: none;
 }
 
