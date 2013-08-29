@@ -64,6 +64,11 @@ body#home ul#networks a:hover {
     color: #0088cc;
 }
 
+body#portfolio #toc {
+    padding-left: 20px;
+}
+
 body#courses ul {
     list-style-type: none;
+    padding: 0;
 }
