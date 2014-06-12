@@ -21,6 +21,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
 p, ul li, ol li {
     line-height: 25px;
 }
@@ -29,6 +35,13 @@ p i, li i {
     vertical-align: inherit !important;
     margin-bottom: -1px !important;
     line-height: 25px !important;
+}
+
+.h2-subtitle {
+    text-align: center;
+    color: #808080;
+    margin-top: -11px;
+    font-size: 14px;
 }
 
 #navigation {
@@ -60,11 +73,12 @@ body#home #links a i {
     margin-right: 5px;
 }
 
-body#portfolio #toc {
-    padding-left: 20px;
+section {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-top: 1px solid #eeeeee;
 }
 
-body#courses ul {
+body#education ul {
     list-style-type: none;
-    padding: 0;
 }
