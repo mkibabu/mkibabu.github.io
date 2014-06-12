@@ -46,22 +46,18 @@ p i, li i {
     margin: 0 2px;
 }
 
-body#home ul#networks {
-    list-style: none;
-    margin: auto;
-    padding: 0;
+body#home #links {
     text-align: center;
+    margin: auto;
+    padding: 10px 0 20px;
 }
-body#home ul#networks li {
-    display: inline-block;
-    padding: 5px;
+body#home #links a {
+    font-size: 16px;
+    margin: auto 8px;
+    padding: 3px 12px;
 }
-body#home ul#networks a {
-    color: black;
-    text-decoration: none;
-}
-body#home ul#networks a:hover {
-    color: #0088cc;
+body#home #links a i {
+    margin-right: 5px;
 }
 
 body#portfolio #toc {
