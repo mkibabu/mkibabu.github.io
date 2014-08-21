@@ -11,13 +11,13 @@ h1 {
     font-weight: bold;
     margin: 0px;
     text-align: center;
-    padding-bottom: 10px;
 }
 
 h2 {
     font-size: 18px;
     line-height: 25px;
     font-weight: bold;
+    margin: 0px;
     text-align: center;
 }
 
@@ -45,7 +45,6 @@ p i, li i {
 }
 
 #navigation {
-    padding-bottom: 20px;
     text-align: center;
 }
 #navigation a {
@@ -61,8 +60,7 @@ p i, li i {
 
 body#home #links {
     text-align: center;
-    margin: auto;
-    padding: 10px 0 20px;
+    margin: 0 auto;
 }
 body#home #links a {
     font-size: 16px;
@@ -74,11 +72,15 @@ body#home #links a i {
 }
 
 section {
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin: 20px auto;
+    padding: 20px 0 0;
     border-top: 1px solid #eeeeee;
 }
 
 body#education ul {
     list-style-type: none;
+}
+
+h1, h2, .panel, .intro, #navigation, body#home #links {
+    margin-bottom: 20px;
 }
