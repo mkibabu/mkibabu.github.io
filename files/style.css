@@ -17,7 +17,7 @@ h2 {
     font-size: 18px;
     line-height: 25px;
     font-weight: bold;
-    margin: 0px;
+    margin: 0 0 10px;
     text-align: center;
 }
 
@@ -25,6 +25,10 @@ h3 {
     font-size: 16px;
     line-height: 25px;
     font-weight: bold;
+}
+
+p, ul {
+    margin-bottom: 10px;
 }
 
 p, ul li, ol li {
@@ -37,11 +41,28 @@ p i, li i {
     line-height: 25px !important;
 }
 
-.h2-subtitle {
+.callout {
+    border: 1px solid #adadad;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.experience h2 {
+    margin-bottom: 0;
+}
+.experience .subtitle {
     text-align: center;
     color: #808080;
-    margin-top: -11px;
     font-size: 14px;
+}
+.technologies {
+    text-align: center;
+    margin: 0 auto 10px;
+    line-height: 29px;
+}
+.technologies .label {
+    margin: 5px;
+    background-color: #adadad;
 }
 
 #navigation {
@@ -81,6 +102,6 @@ body#education ul {
     list-style-type: none;
 }
 
-h1, h2, .panel, .intro, #navigation, body#home #links {
+h1, .panel, .intro, #navigation, body#home #links {
     margin-bottom: 20px;
 }
