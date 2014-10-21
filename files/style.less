@@ -52,55 +52,56 @@ p i, li i {
     border-radius: 4px;
     margin-bottom: 20px;
 }
-.experience h2 {
-    margin-bottom: 0;
-}
-.experience .subtitle {
-    text-align: center;
-    color: @darkgrey;
-    font-size: 14px;
-}
-.technologies {
-    text-align: center;
-    margin: 0 auto 10px;
-    line-height: 29px;
-}
-.technologies .label {
-    margin: 5px;
-    background-color: @lightgrey;
-}
-
-#navigation {
-    text-align: center;
-}
-#navigation a {
-    color: @grey;
-}
-#navigation .element.active {
-    color: @darkgrey;
-    text-decoration: underline;
-}
-#navigation .element {
-    margin: 0 2px;
-}
-
-body#home #links {
-    text-align: center;
-    margin: 0 auto;
-}
-body#home #links a {
-    font-size: 16px;
-    margin: auto 8px;
-    padding: 3px 12px;
-}
-body#home #links a i {
-    margin-right: 5px;
-}
 
 section {
     margin: 20px auto;
     padding: 20px 0 0;
     border-top: 1px solid @white;
+    h2 {
+        margin-bottom: 0;
+    }
+    .subtitle {
+        text-align: center;
+        color: @darkgrey;
+        font-size: 14px;
+    }
+}
+
+.technologies {
+    text-align: center;
+    margin: 0 auto 10px;
+    line-height: 29px;
+    .label {
+        margin: 5px;
+        background-color: @lightgrey;
+    }
+}
+
+#navigation {
+    text-align: center;
+    a {
+        color: @grey;
+    }
+    .element {
+        margin: 0 2px;
+        &.active {
+            color: @darkgrey;
+            text-decoration: underline;
+        }
+    }
+}
+
+body#home #links {
+    text-align: center;
+    margin: 0 auto;
+    #links a {
+        font-size: 16px;
+        margin: auto 8px;
+        padding: 3px 12px;
+        i {
+            margin-right: 5px;
+        }
+    }
 }
 
 body#education ul {
