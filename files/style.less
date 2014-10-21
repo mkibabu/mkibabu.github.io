@@ -32,6 +32,12 @@ h3 {
     font-weight: bold;
 }
 
+@media (max-width: 767px) {
+    p {
+        text-align: center;
+    }
+}
+
 p, ul {
     margin-bottom: 10px;
 }
@@ -57,19 +63,23 @@ section {
     margin: 20px auto;
     padding: 20px 0 0;
     border-top: 1px solid @white;
-    h2 {
-        margin-bottom: 0;
-    }
-    .subtitle {
-        text-align: center;
-        color: @darkgrey;
-        font-size: 14px;
+    .section-head {
+        margin-bottom: 10px;
+        h2 {
+            margin-bottom: 0;
+        }
+        p {
+            margin-bottom: 0;
+            text-align: center;
+            color: @darkgrey;
+            font-size: 14px;
+        }
     }
 }
 
 .technologies {
     text-align: center;
-    margin: 0 auto 10px;
+    margin: -5px auto 10px;
     line-height: 29px;
     .label {
         margin: 5px;
