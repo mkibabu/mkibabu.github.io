@@ -1,3 +1,8 @@
+@lightgrey: #adadad;
+@grey: #808080;
+@darkgrey: #404040;
+@white: #eeeeee;
+
 body {
     padding: 20px;
     max-width: 800px;
@@ -42,7 +47,7 @@ p i, li i {
 }
 
 .callout {
-    border: 1px solid #adadad;
+    border: 1px solid @lightgrey;
     padding: 15px;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -52,7 +57,7 @@ p i, li i {
 }
 .experience .subtitle {
     text-align: center;
-    color: #808080;
+    color: @darkgrey;
     font-size: 14px;
 }
 .technologies {
@@ -62,17 +67,17 @@ p i, li i {
 }
 .technologies .label {
     margin: 5px;
-    background-color: #adadad;
+    background-color: @lightgrey;
 }
 
 #navigation {
     text-align: center;
 }
 #navigation a {
-    color: #808080;
+    color: @grey;
 }
 #navigation .element.active {
-    color: #404040;
+    color: @darkgrey;
     text-decoration: underline;
 }
 #navigation .element {
@@ -95,7 +100,7 @@ body#home #links a i {
 section {
     margin: 20px auto;
     padding: 20px 0 0;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid @white;
 }
 
 body#education ul {
