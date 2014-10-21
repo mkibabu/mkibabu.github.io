@@ -45,7 +45,19 @@
         performance of delay-based high speed protocols under different
         network conditions. I received a B.Sc. in computer science and a B.A.
         in math from Albany State University in Albany, Georgia in 2009.</p>
+
+        <p>If you want to get in touch, please send me an email at
+        <span id="email"></span>.</p>
     </div>
 </div>
+
+<script>
+  // Mildly obfuscate my email address to avoid spam.
+  var email = "michael" + "." + "k" + "." + "muraya" + "@" + "gmail.com";
+  var link = document.createElement("a");
+  link.setAttribute("href", "mailto:" + email);
+  link.text = email;
+  document.getElementById("email").appendChild(link);
+</script>
 </body>
 </html>
