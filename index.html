@@ -5,22 +5,31 @@ title: |
   Michael Muraya | Software developer based in Raleigh/Durham, North Carolina
 ---
 <div class="links">
-    <a class="btn btn-default" title="LinkedIn Profile"
-       href="http://www.linkedin.com/pub/michael-muraya/6a/739/866/">
-        <i id="li" class="fa"></i> LinkedIn
-    </a>
-    <a class="btn btn-default" title="GitHub Profile"
-       href="https://github.com/mkibabu">
-        <i id="gh" class="fa"></i> GitHub
-    </a>
+  <a class="btn btn-default" title="LinkedIn Profile"
+     href="http://www.linkedin.com/pub/michael-muraya/6a/739/866/">
+    <i id="li" class="fa"></i> LinkedIn
+  </a>
+  <a class="btn btn-default" title="GitHub Profile"
+      href="https://github.com/mkibabu">
+    <i id="gh" class="fa"></i> GitHub
+  </a>
 </div>
 
 <div id="hello">
-    <p>Hi! I'm a software developer based in Raleigh/Durham, North
-    Carolina. Currently, I work as a software test engineer at
-    Fujifilm Medical Systems. Previously, I earned my master's degree
-    in computer science from UNC Chapel Hill.</p>
+  <p>Hi! I'm a software developer based in Raleigh/Durham, North
+  Carolina. Currently, I work as a software test engineer at
+  Fujifilm Medical Systems. Previously, I earned my master's degree
+  in computer science from UNC Chapel Hill.</p>
 
-    <p>If you want to get in touch, please send me an email at
-    <span id="email"></span>.</p>
+  <p>If you want to get in touch, please send me an email at
+  <span id="email"></span>.</p>
 </div>
+
+<script>
+  // Mildly obfuscate my email address to avoid spam.
+  var email = "michael" + "." + "k" + "." + "muraya" + "@" + "gmail.com";
+  var link = document.createElement("a");
+  link.setAttribute("href", "mailto:" + email);
+  link.text = email;
+  document.getElementById("email").appendChild(link);
+</script>
