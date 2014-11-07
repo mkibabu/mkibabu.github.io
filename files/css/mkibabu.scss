@@ -1,7 +1,11 @@
-@grey: #808080;
-@lightgrey: lighten(@grey, 20%);
-@darkgrey: darken(@grey, 20%);
-@white: #eee;
+---
+---
+@charset "utf-8";
+
+$grey: #808080;
+$lightgrey: lighten($grey, 20%);
+$darkgrey: darken($grey, 20%);
+$white: #eee;
 
 body {
     margin: 0 auto;
@@ -51,26 +55,26 @@ p, ul li, ol li {
     margin-bottom: 20px;
     text-align: center;
     a {
-        color: @grey;
+        color: $grey;
     }
     .element {
         margin: 0 2px;
         &.active {
-            color: @darkgrey;
+            color: $darkgrey;
             text-decoration: underline;
         }
     }
 }
 
 .callout {
-    border: 1px solid @lightgrey;
+    border: 1px solid $lightgrey;
     border-radius: 4px;
     margin: 20px auto;
     padding: 15px;
 }
 
 section {
-    border-top: 1px solid @white;
+    border-top: 1px solid $white;
     margin: 20px auto;
     padding-top: 20px;
     .section-head {
@@ -79,7 +83,7 @@ section {
             margin-bottom: 0;
         }
         p {
-            color: @darkgrey;
+            color: $darkgrey;
             font-size: 14px;
             margin-bottom: 0;
             text-align: center;
@@ -101,7 +105,7 @@ section {
     margin: -5px auto 10px;
     text-align: center;
     .label {
-        background-color: @lightgrey;
+        background-color: $lightgrey;
         margin: 5px;
     }
 }
