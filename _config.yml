@@ -1,7 +1,5 @@
 title: Michael Muraya
 email: mkibabu@gmail.com
-description: |
-  Software developer based in Raleigh/Durham, North Carolina.
 url: "https://mkibabu.github.io"
 
 exclude: ["README.rst"]
@@ -12,3 +10,5 @@ defaults:
       type: "pages"
     values:
       layout: default
+      meta_description: |
+        Software developer based in Raleigh/Durham, North Carolina.

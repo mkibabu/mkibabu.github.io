@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{ site.description }}">
+    {% if page.meta_description %}
+    <meta name="description" content="{{ page.meta_description }}">
+    {% endif %}
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ page.h1 }} | {{ site.title }}{% endif %}</title>
 
     <link rel="stylesheet" type="text/css"
           href="//fonts.googleapis.com/css?family=Open+Sans:400,700" />
@@ -41,6 +43,8 @@
           <span class="element"><a href="/education/">education</a></span>
         {% endif %}
       </div>
+
+      <h1>{{ page.h1 }}</h1>
 
       {{ content }}
     </div>
