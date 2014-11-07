@@ -1,0 +1,13 @@
+title: Michael Muraya
+email: mkibabu@gmail.com
+description: |
+  Software developer based in Raleigh/Durham, North Carolina.
+url: "https://mkibabu.github.io"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
