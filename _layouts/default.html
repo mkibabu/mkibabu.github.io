@@ -23,11 +23,23 @@
   <body>
     <div class="container-fluid">
       <div id="navigation">
-        <span class="active element">home</span>
+        {% if page.url == "/" %}
+          <span class="active element">home</span>
+        {% else %}
+          <span class="element"><a href="/">home</a></span>
+        {% endif %}
         &nbsp;&middot;&nbsp;
-        <span class="element"><a href="/experience/">experience</a></span>
+        {% if page.url == "/experience/" %}
+          <span class="active element">experience</span>
+        {% else %}
+          <span class="element"><a href="/experience/">experience</a></span>
+        {% endif %}
         &nbsp;&middot;&nbsp;
-        <span class="element"><a href="/education/">education</a></span>
+        {% if page.url == "/education/" %}
+          <span class="active element">education</span>
+        {% else %}
+          <span class="element"><a href="/education/">education</a></span>
+        {% endif %}
       </div>
 
       {{ content }}
