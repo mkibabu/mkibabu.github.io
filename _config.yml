@@ -4,6 +4,7 @@ description: |
   Software developer based in Raleigh/Durham, North Carolina.
 url: "https://mkibabu.github.io"
 
+exclude: ["README.rst"]
 defaults:
   -
     scope:
