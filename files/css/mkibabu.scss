@@ -37,31 +37,34 @@ h3 {
     margin: 0 0 10px;
 }
 
-@media (max-width: 767px) {
-    p {
+p {
+    line-height: 25px;
+    margin-bottom: 10px;
+    @media (max-width: 767px) {
         text-align: center;
     }
 }
 
-p, ul {
-    margin-bottom: 10px;
-}
-
-p, ul li, ol li {
-    line-height: 25px;
-}
-
-#navigation {
-    margin-bottom: 20px;
+.menu {
+    margin: 0 0 20px;
+    padding: 0;
     text-align: center;
     a {
         color: $grey;
     }
-    .element {
+    li {
+        display: inline;
         margin: 0 2px;
+        padding: 0;
         &.active {
             color: $darkgrey;
             text-decoration: underline;
+        }
+        &:not(:last-child):after {
+            content: "·";
+            display: inline-block;
+            margin-left: 10.5px;
+            margin-right: 2px;
         }
     }
 }
@@ -108,6 +111,13 @@ section {
         background-color: $lightgrey;
         margin: 5px;
     }
+}
+
+.year ul {
+  margin-bottom: 10px;
+  li {
+    line-height: 25px;
+  }
 }
 
 .links {
