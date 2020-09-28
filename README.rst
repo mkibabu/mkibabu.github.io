@@ -6,4 +6,4 @@ Written in HTML and CSS, and styled with the help of `Bootstrap
 
 See also:
     - `GitHub <https://github.com/mkibabu>`_
-    - `LinkedIn <http://www.linkedin.com/pub/michael-muraya/6a/739/866/>`_
+    - `LinkedIn <https://www.linkedin.com/in/mmuraya/>`_
