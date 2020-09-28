@@ -1,8 +1,8 @@
 The content of my website, hosted at
-`mkibabu.github.io <http://mkibabu.github.io>`_.
+`mkibabu.github.io <https://mkibabu.github.io>`_.
 
 Written in HTML and CSS, and styled with the help of `Bootstrap
-<http://getbootstrap.com>`_ and `Font Awesome <http://fontawesome.io/>`_.
+<https://getbootstrap.com>`_ and `Font Awesome <https://fontawesome.io/>`_.
 
 See also:
     - `GitHub <https://github.com/mkibabu>`_
